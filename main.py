@@ -6,6 +6,7 @@ from middlewares.error_handler import Errorhandler
 
 from routers.products import product_router
 from routers.supplier import supplier_router
+from routers.supplies import supplies_router
 
 
 inventory= FastAPI()
@@ -16,6 +17,7 @@ inventory.version = "0.0.1"
 inventory.add_middleware(Errorhandler)
 inventory.include_router(product_router)
 inventory.include_router(supplier_router)
+inventory.include_router(supplies_router)
 
 
 Base.metadata.create_all(bind=engine)

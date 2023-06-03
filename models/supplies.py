@@ -6,8 +6,9 @@ from sqlalchemy.orm import relationship
 class Supplies(Base):
     __tablename__= "Supplies"
 
-    supplier_id= Column(Integer, ForeignKey("supplier.id"))
-    product_id= Column (Integer, ForeignKey("product.id"))
+    id= Column(Integer, primary_key=True)
+    supplier_id= Column(Integer, ForeignKey("Supplier.id"))
+    product_id= Column (Integer, ForeignKey("Product.id"))
     purchase_price= Column(Float)
 
     # supplier = relationship("Supplier", back_populates="Supplies")
