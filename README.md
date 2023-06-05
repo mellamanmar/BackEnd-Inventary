@@ -1,9 +1,8 @@
 <h1 align="center"> Proyecto CRUD de un inventario </h1>
-<img src="image/programate.png" alt="Logo Programate">
+<img src="image/supplier figure package.jpg" alt="Inventory" width="120" height="100">
 
-<h4 align="left"> Autor: Marianny Márquez </h4>
-Prográmate Academy
-<img src="image/supplier figure package.jpg" alt="Inventory">
+<h4 style="color: #661BBB";> Autor: Marianny Márquez </h4>
+Prográmate Academy <img src="image/programate.png" alt="Logo Programate" width="200" height="100">
 
 <h2> Descripción </h2>
 Este proyecto contiene operaciones CRUD (Create, Read, Update and Delete) de un inventario de una tienda de comestibles.
